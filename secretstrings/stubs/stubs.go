@@ -1,9 +1,10 @@
 package stubs
 
-var ReverseHandler = "SecretStringOperations.Reverse"
-var PremiumReverseHandler = "SecretStringOperations.FastReverse"
+//Variables: define the name of the nethods called on server by client
+var ReverseHandler = "SecretStringOperation.Reverse"
+var PremiumReverseHandler = "SecretStringOperation.FastReverse"
 
-
+//Structs
 type Response struct {
 	Message string
 }
@@ -11,5 +12,3 @@ type Response struct {
 type Request struct {
 	Message string
 }
-
-
